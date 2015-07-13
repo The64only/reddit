@@ -6,24 +6,24 @@ import sqlite3
 
 '''USER CONFIGURATION'''
 
-USERNAME  = ""
+USERNAME  = "AccountingTERMINATOR"
 # This is the bot's Username.
 # Accounts will lower karma will run into rate limits at first.
-PASSWORD  = ""
+PASSWORD  = "123004"
 # This is the bot's Password.
 # See my main github repo for alternatives
-USERAGENT = ""
+USERAGENT = "Replies to automation posts"
 # This is a short description of what the bot does.
 # For example "Python automatic replybot v2.0 (by /u/GoldenSights)"
-SUBREDDIT = "pics"
+SUBREDDIT = "accounting"
 # This is the sub or list of subs to scan for new posts. For a single sub, use "sub1". For multiple subreddits, use "sub1+sub2+sub3+..."
-KEYWORDS = ["phrase 1", "phrase 2", "phrase 3", "phrase 4"]
+KEYWORDS = ["automation", "automate", "computerize", "robot", "robots"]
 # These are the words you are looking for
 KEYAUTHORS = []
 # These are the names of the authors you are looking for
 # The bot will only reply to authors on this list
 # Keep it empty to allow anybody.
-REPLYSTRING = "Hi hungry, I'm dad."
+REPLYSTRING = "Unlike myself, the accounting profession will not be automated for a long, long time. Check [this](https://www.reddit.com/r/Accounting/comments/2vcqyb/no_computers_wont_be_taking_over_the_accounting/) out for more."
 # This is the word you want to put in reply
 MAXPOSTS = 100
 # This is how many posts you want to retrieve all at once. PRAW can download 100 at a time.
